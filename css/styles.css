@@ -1,0 +1,151 @@
+body
+{
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  background-image: url("file:///E:/Web%20Development/Practice/Order%20summary/order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;;
+}
+
+h1
+{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.annualplan
+{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  width: auto;
+  margin-bottom: 0;
+  color: black;
+}
+
+.cost
+{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+p
+{
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  color: grey;
+}
+
+/* .attribution
+{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a
+{
+  color: hsl(228, 45%, 44%);
+} */
+
+.summary
+{
+  background-color: white;
+  display: inline-block;
+  width: 450px;
+  text-align: center;
+  border-radius: 10px;
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 601.875px;
+}
+
+.plan
+{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.musicicon
+{
+  float: left;
+  margin: 15px 10px auto 10px;
+}
+
+.change
+{
+  float: right;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.planbox
+{
+  background-color: hsl(225, 100%, 98%);
+  display: inline-block;
+  width: 350px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.illustration
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.payment
+{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.cancelbutton
+{
+  margin-bottom: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: hsl(245, 75%, 52%);
+  padding: 12px 100px 12px 100px;
+  text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+.btn:hover {
+  background: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.cancel
+{
+  text-decoration: none;
+  font-weight: 700;
+  color: grey;
+}
+
+.cancel:hover
+{
+  color: black;
+}
+
+.changelink:hover
+{
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
